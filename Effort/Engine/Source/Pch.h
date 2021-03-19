@@ -58,8 +58,14 @@
 #include <windowsx.h>
 #pragma comment(lib, "winmm.lib")
 
+#include <DirectXMath.h>
+
 // DirectX12
 #pragma comment(lib, "d3d12.lib")
 #pragma comment(lib, "d3dcompiler.lib")
 #pragma comment(lib, "dxgi.lib")
 #pragma comment(lib, "dxguid.lib")
+
+// Engine
+#include "Core/Platform.h"
+#include "Math/Math.h"
