@@ -149,6 +149,7 @@
     <ClInclude Include="Source\Core\Platform.h" />
     <ClInclude Include="Source\Core\Singleton.h" />
     <ClInclude Include="Source\Core\Window.h" />
+    <ClInclude Include="Source\Math\Math.h" />
     <ClInclude Include="Source\Pch.h" />
   </ItemGroup>
   <ItemGroup>

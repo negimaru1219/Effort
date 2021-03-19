@@ -8,6 +8,9 @@
     <Filter Include="Source\Core">
       <UniqueIdentifier>{3231bd51-95b1-499f-866c-55300eb8f13e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\Math">
+      <UniqueIdentifier>{c9ad00a8-04e5-4f3b-badb-06c617567013}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Core\Application.h">
@@ -24,6 +27,9 @@
     </ClInclude>
     <ClInclude Include="Source\Core\Window.h">
       <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Math\Math.h">
+      <Filter>Source\Math</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
