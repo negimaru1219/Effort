@@ -1,4 +1,7 @@
+#include "Application.h"
+
 int main()
 {
-	return 0;
+	Effort::Application::Create();
+	return static_cast<int>(Effort::GetApplication().Run());
 }
