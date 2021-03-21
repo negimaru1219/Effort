@@ -4,16 +4,16 @@ namespace Effort
 {
 	bool Window::Create(const WNDCLASSEX& windowClassEx, const std::wstring& windowName, int32 showCmd)
 	{
-		constexpr int32 WindowWidth = 1280;
-		constexpr int32 WindowHeight = 720;
+		constexpr int32 kWindowWidth = 1280;
+		constexpr int32 kWindowHeight = 720;
 
 		RegisterClassEx(&windowClassEx);
 
-		//ウィンドウの生成
+		// ウィンドウの生成
 		mHandle = CreateWindow(
 			windowClassEx.lpszClassName, windowName.c_str(), WS_OVERLAPPEDWINDOW,
 			0, 0,
-			WindowWidth, WindowHeight,
+			kWindowWidth, kWindowHeight,
 			nullptr, nullptr,
 			windowClassEx.hInstance, nullptr);
 		if (mHandle == nullptr) { return false; }
